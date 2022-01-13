@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: #757575;
 }
 
 .list {
@@ -60,4 +61,16 @@ a {
   color: var(--header-text-color);
 }
 
+.navigation .header-link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.header-link current
 /*-------------------MAIN-----------------*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
