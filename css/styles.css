@@ -37,8 +37,18 @@ a {
   letter-spacing: 0.03em;
   color: #000000;
 }
+.logo .link {
+  color: var(--accent-color);
+}
 .logo .link:hover,
-.logo-title {
+.link:focus {
+  color: var(--accent-color);
+}
+.logo-title .link {
+  color: #000000;
+}
+.logo-title .link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 
