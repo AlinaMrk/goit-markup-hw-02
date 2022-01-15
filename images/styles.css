@@ -118,13 +118,8 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--header-text-color);
-}
-.feature-text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
 }
 
 .info-title {
@@ -150,24 +145,12 @@ a {
   letter-spacing: 0.03em;
   color: var(--header-text-color);
 }
-.about-text {
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
-}
 
 .imag-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--header-text-color);
-}
-.imag-text {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
 }
 
 .button {
