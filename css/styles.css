@@ -44,12 +44,22 @@ a {
 .logo-link:focus {
   color: var(--accent-color);
 }
+.header-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
-.header-link {
+  color: #212121;
+}
+
+.link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--header-text-color);
 }
 
@@ -58,7 +68,7 @@ a {
   color: var(--accent-color);
 }
 
-.mail-link {
+/*.mail-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -72,15 +82,15 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-}
-.mail-link:hover,
-.mail-link:focus {
+}*/
+.contact .link:hover,
+.contact .link:focus {
   color: var(--accent-color);
 }
-.tel-link:hover,
+/*.tel-link:hover,
 .tel-link:focus {
   color: var(--accent-color);
-}
+}*/
 .current {
   color: var(--accent-color);
 }
