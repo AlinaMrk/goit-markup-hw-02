@@ -77,7 +77,6 @@ a {
   color: var(--accent-color);
 }
 /*-----------------------------MAIN--------------------------*/
-
 .hero-title {
   background: #2f303a;
 }
@@ -91,21 +90,8 @@ a {
   color: var(--primary-title-color);
 }
 /*button-studio*/
+
 .button {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.87;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: var(--primary-title-color);
-}
-.button.hero {
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
